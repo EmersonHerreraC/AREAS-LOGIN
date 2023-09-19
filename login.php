@@ -1,5 +1,5 @@
 <?php
-	$conn = new mysqli('databases-auth.000webhost.com', 'id20636071_emeheco', '19082001@Emer', 'id20636071_asis_sa');
+	$conn = new mysqli('localhost', 'id20636071_emeheco', '19082001@Emer', 'id20636071_asis_sa');
 
 	if ($conn->connect_error) {
 	    die("Connection failed: " . $conn->connect_error);
