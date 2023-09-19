@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Vina+Sans&display=swap');
+
+body {
+    background-color: #504b4b;
+    color: #242121;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin-top: 200px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 96%;
+}
+
+.output-group {
+    margin-top: 20px;
+}
+
+output {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 96%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+button {
+    background-color: #4c93af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+}
+
+button:hover {
+    background-color: #000f64;
+}
+
+
+.limpiar{
+    background-color: #4caf61;
+    color: white;
+}
+
+.limpiar:hover{
+    background-color: #0c501b;
+    color: white; 
+}
+
+.ir{
+    display: flex; /* Establece el contenedor como un flex container */
+    justify-content: center; /* Centra horizontalmente los elementos secundarios */
+    align-items: center; /* Centra verticalmente los elementos secundarios */
+    height: 100vh; /* Ajusta la altura del contenedor al 100% del viewport height (altura de la ventana del navegador) */
+    text-align: center; 
+}
